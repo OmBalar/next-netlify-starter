@@ -1,19 +1,19 @@
 import Head from 'next/head'
-import Header from '@components/Header/Header'
+import Header from '@components/Header/Header.js'
 import Footer from '@components/Footer'
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>Next.js Starter</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Header />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          Get started by editin <code>pages/index.js</code>
         </p>
       </main>
 
