@@ -1,0 +1,87 @@
+.recipesContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.recipeGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 2rem;
+}
+
+.recipeLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.recipeCard {
+  background: white;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  padding: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  cursor: pointer;
+  display: flex;
+  overflow: hidden;
+  min-height: 200px;
+}
+
+.recipeCard:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.recipeImage {
+  width: 200px;
+  min-width: 200px;
+  object-fit: cover;
+  background: #f5f5f5;
+}
+
+.recipeContent {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.recipeTitle {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.recipeDescription {
+  color: #666;
+  margin-bottom: 1rem;
+  flex: 1;
+}
+
+.recipeInfo {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.9rem;
+  color: #888;
+  margin-top: auto;
+}
+
+@media (max-width: 768px) {
+  .recipeGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .recipeCard {
+    flex-direction: column;
+  }
+  
+  .recipeImage {
+    width: 100%;
+    height: 200px;
+  }
+}

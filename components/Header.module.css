@@ -3,6 +3,10 @@
   border-bottom: 1px solid #e5e5e5;
   padding: 1rem 0;
   width: 100%;
+  position: sticky; /* Make header sticky */
+  top: 0;
+  z-index: 100; /* Ensure it stays on top */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Add subtle shadow when sticky */
 }
 
 .nav {

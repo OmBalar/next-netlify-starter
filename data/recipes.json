@@ -1,0 +1,11 @@
+[
+  {
+    "id": 4,
+    "title": "Test Prep",
+    "description": "This recipe is a test for the recipe blog website.",
+    "prepTime": "15 minutes",
+    "cookTime": "30 minutes",
+    "html": "<h1>Test Prep</h1>\n<img src=\"/uploads/kjypnvctonj5u1mhqc5n874yb.jpg\" alt=\"Test Prep\" />\n<h3>Ingredients</h3>\n<p>100g flour</p>\n<p>1 stick butter</p>\n<p>2 pinches of salt</p>\n<p>4 limes</p>\n<img src=\"/uploads/w8hp48afjcjeahu0kcnyw6nxh.avif\" alt=\"\" />\n<h3>Conclusion</h3>\n<p>This is a very tasty recipe and you will enjoy it a lot if you make it properly.</p>\n",
+    "createdAt": "2025-10-26T22:35:42.757Z"
+  }
+]

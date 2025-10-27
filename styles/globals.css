@@ -1,9 +1,12 @@
+/*globals.css */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
 html,
 body {
   background-color: #f8fafc;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+  font-family: 'Lora', serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
     Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
@@ -11,11 +14,16 @@ body {
   box-sizing: border-box;
 }
 
+/* Default main styling for home/about pages */
 main {
-  padding: 5rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
+}
+
+/* Specific styling for home/about pages */
+.container.centered main {
+  padding: 5rem 0;
   justify-content: center;
   align-items: center;
 }
@@ -28,9 +36,11 @@ code {
 }
 
 .container {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+}
+
+html {
+  scroll-behavior: smooth;
 }

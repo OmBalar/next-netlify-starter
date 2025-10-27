@@ -10,8 +10,12 @@
   },
   "dependencies": {
     "@netlify/plugin-nextjs": "^5.14.3",
+    "formidable": "^3.5.4",
     "next": "^15.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "24.9.1"
   }
 }
