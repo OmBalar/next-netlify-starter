@@ -7,5 +7,23 @@
     "cookTime": "30 minutes",
     "html": "<h1>Test Prep</h1>\n<img src=\"/uploads/kjypnvctonj5u1mhqc5n874yb.jpg\" alt=\"Test Prep\" />\n<h3>Ingredients</h3>\n<p>100g flour</p>\n<p>1 stick butter</p>\n<p>2 pinches of salt</p>\n<p>4 limes</p>\n<img src=\"/uploads/w8hp48afjcjeahu0kcnyw6nxh.avif\" alt=\"\" />\n<h3>Conclusion</h3>\n<p>This is a very tasty recipe and you will enjoy it a lot if you make it properly.</p>\n",
     "createdAt": "2025-10-26T22:35:42.757Z"
+  },
+  {
+    "id": 5,
+    "title": "Mango Matho",
+    "description": "Fluffy, airy, and luxuriously creamy mango flavoured delicacy.",
+    "prepTime": "25-30 minutes",
+    "cookTime": "15 minutes",
+    "html": "<img src=\"/uploads/purprnma6up4jdb4io4mx79ff.webp\" alt=\"Mango Matho\" />\n<h3>Ingredients</h3>\n<p>- Heavy Cream</p>\n<p>- Mango Puree</p>\n<p>- Saffron</p>\n<p>- Vanilla Jello Pudding Mix</p>\n<p>- Dry Fruits: Pistachio, Cashews, Almonds</p>\n<p>- Cardamom Powder</p>\n<p>- Fruits (Optional): Strawberries, Mangoes, Peaches, Red Grapes</p>\n<p>- Optionally Cream Cheese</p>\n<h3>Steps</h3>\n<p><b>Preparation: </b><br />1. Wash and thoroughly dry fruits<br />2. Thinly chop the dry fruits<br />3. Cut the fruits into pea size</p>\n<p><b>Mixing: </b><br />1. In a stand mixer, add the heavy cream and Jello pudding and if preferred a little bit of cream cheese whip till stiff peaks form<br />2. Add in the mango puree<br />3. Gently mix using the eightfold method with a spatula forming a smooth creamy consistency<br /><img src=\"/uploads/hwm4d0bucu4ssx2zy1q7x3exn.gif\" alt=\"Test GIF\" />\n4. Add in the cardamom powder, saffron, and dry fruits keeping some as garnish and add in all the fresh fruits<br />5. Serve in preferred cup or bowl (it's healthy but in limits)<br />6. Add the remaining dry fruits as garnish<br />7. Remember to take a PICTURE!<br /></p>\n",
+    "createdAt": "2025-10-27T23:53:57.999Z"
+  },
+  {
+    "id": 6,
+    "title": "Test GIF",
+    "description": "GIF",
+    "prepTime": "0 mins",
+    "cookTime": "0 mins",
+    "html": "<img src=\"/uploads/hwm4d0bucu4ssx2zy1q7x3exn.gif\" alt=\"Test GIF\" />\n",
+    "createdAt": "2025-10-27T23:58:18.222Z"
   }
 ]
